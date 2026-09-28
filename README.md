@@ -1,4 +1,5 @@
 # 奶蛙召唤 · CALL OF NAIWA
+演示视频：https://www.bilibili.com/video/BV1FVaV69Ew5/?vd_source=fd8f5bde6ecd934b06cdecdb9c093b0f
 
 离线 Windows FPS 游戏，基于 Three.js 与 Electron。当前版本 **2.2.0**。
 
