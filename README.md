@@ -39,7 +39,7 @@ npm run package
 
 WASD 移动；左键射击；右键开镜；R 换弹；Shift 冲刺；C / Ctrl 蹲伏或滑铲；空格跳跃；G / Q 投掷物；F 互动；3 / 4 / 5 连杀奖励；Esc 暂停；F11 全屏。
 
-详细说明见 [使用说明](使用说明.md) 与 [连杀奖励对照](连杀奖励对照.md)。
+
 
 ## 检查
 
@@ -65,7 +65,3 @@ npm start
 | `app/js/optics.js` | 瞄具 |
 | `app/js/streak-system.js` | 连杀奖励 |
 | `desktop/` | Windows 桌面封装与打包 |
-
-## 来源与许可
-
-基于 [zty828/OPUS5.5-COD](https://github.com/zty828/OPUS5.5-COD) 改编。第三方模型、语音和依赖各自适用其来源条件；本仓库不为第三方素材另行授予许可。语音模型卡标注 CC BY-NC-SA 4.0，相关说明保留在 [素材与来源](素材与来源.md) 和素材目录中。Three.js 许可见 [THREE-LICENSE.txt](THREE-LICENSE.txt)。
