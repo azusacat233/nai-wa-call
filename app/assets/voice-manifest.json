@@ -1,0 +1,457 @@
+{
+  "被发现了！火力全开！": {
+    "text": "We have been spotted. Weapons free.",
+    "file": "./assets/voice/radio_01.wav",
+    "duration": 2.073507180650038
+  },
+  "院子里的人被惊动了，小心！": {
+    "text": "The compound is on alert. Stay sharp.",
+    "file": "./assets/voice/radio_02.wav",
+    "duration": 2.533068783068783
+  },
+  "夜视仪戴好，按 N 切换。跟紧我，保持安静。": {
+    "text": "Night vision on. Press N to toggle. Stay close, and keep it quiet.",
+    "file": "./assets/voice/radio_03.wav",
+    "duration": 4.531273620559335
+  },
+  "情报显示前哨站在东边，大约四十米。武器已装消音器，尽量别惊动他们。": {
+    "text": "The outpost is forty meters east. Suppressors are fitted. Keep this quiet.",
+    "file": "./assets/voice/radio_04.wav",
+    "duration": 4.833616780045351
+  },
+  "前哨站就在前面。塔楼上有个哨兵，先解决他。我们在这里掩护，你来决定开火时机。": {
+    "text": "Outpost ahead. Sentry in the tower. Take him first. We will cover you. Fire when ready.",
+    "file": "./assets/voice/radio_05.wav",
+    "duration": 5.7340325018896445
+  },
+  "前哨站已清除，干净利落。": {
+    "text": "Outpost clear. Good work.",
+    "file": "./assets/voice/radio_06.wav",
+    "duration": 2.0251322751322753
+  },
+  "村子里还有武装分子，注意窗户和屋顶。": {
+    "text": "Hostiles in the village. Watch the windows and rooftops.",
+    "file": "./assets/voice/radio_07.wav",
+    "duration": 3.5005668934240366
+  },
+  "这就是目标大院。「铁蝎」萨米尔就在主楼后侧房间里。": {
+    "text": "This is the target compound. Samir is in the rear room of the main building.",
+    "file": "./assets/voice/radio_08.wav",
+    "duration": 4.419690098261527
+  },
+  "从正门突入，逐个房间清理。按 Q 投掷闪光弹。": {
+    "text": "Breach the front entrance. Clear it room by room. Press Q for a flashbang.",
+    "file": "./assets/voice/radio_09.wav",
+    "duration": 4.6522108843537415
+  },
+  "目标确认击毙！快，搜查他的电脑，下载所有情报！": {
+    "text": "Target confirmed down. Get to his computer. Download the intelligence.",
+    "file": "./assets/voice/radio_10.wav",
+    "duration": 4.2531179138322
+  },
+  "灯塔呼叫布雷克，侦测到大批敌方增援正向你们位置靠近，撤离机预计九十秒后抵达。": {
+    "text": "Blake, this is Lighthouse. Enemy reinforcements are closing on your position. Extraction in ninety seconds.",
+    "file": "./assets/voice/radio_11.wav",
+    "duration": 6.357426303854875
+  },
+  "收到。所有人，坚守大院！弹药箱在庭院西南角，按 F 补给。": {
+    "text": "Copy. All units, hold the compound. Ammunition is in the southwest corner. Press F to resupply.",
+    "file": "./assets/voice/radio_12.wav",
+    "duration": 6.493197278911565
+  },
+  "撤离机抵达，正在降落，东门已为你们打开！": {
+    "text": "Extraction bird on station. Coming in to land. The east gate is open.",
+    "file": "./assets/voice/radio_13.wav",
+    "duration": 4.845710506424792
+  },
+  "直升机到了！所有人上机，快走！": {
+    "text": "Our ride is here. All units, move to the helicopter.",
+    "file": "./assets/voice/radio_14.wav",
+    "duration": 3.6094104308390027
+  },
+  "西边有车队！一辆皮卡正在靠近！": {
+    "text": "Vehicle approaching from the west. Enemy pickup inbound.",
+    "file": "./assets/voice/radio_15.wav",
+    "duration": 3.113567649281935
+  },
+  "南北两侧的缺口都有敌人！守住庭院！": {
+    "text": "Hostiles at the north and south breaches. Hold the courtyard.",
+    "file": "./assets/voice/radio_16.wav",
+    "duration": 3.367535903250189
+  },
+  "又一辆车从北边过来了！": {
+    "text": "Another vehicle approaching from the north.",
+    "file": "./assets/voice/radio_17.wav",
+    "duration": 2.0344860166288736
+  },
+  "撤离机还有十五秒！坚持住！": {
+    "text": "Extraction in fifteen seconds. Hold your ground.",
+    "file": "./assets/voice/radio_18.wav",
+    "duration": 3.1861300075585794
+  },
+  "所有人都上来了。灯塔，我们撤离了。干得漂亮。": {
+    "text": "All personnel aboard. Lighthouse, we are clear. Well done.",
+    "file": "./assets/voice/radio_19.wav",
+    "duration": 3.8177437641723357
+  },
+  "团队死斗，行动开始": {
+    "text": "Team deathmatch. Move out.",
+    "file": "./assets/voice/radio_20.wav",
+    "duration": 1.9767573696145124
+  },
+  "占领，行动开始": {
+    "text": "Domination. Secure the objectives.",
+    "file": "./assets/voice/radio_21.wav",
+    "duration": 2.4121315192743764
+  },
+  "自由混战，行动开始": {
+    "text": "Free for all. You are on your own.",
+    "file": "./assets/voice/radio_22.wav",
+    "duration": 2.000944822373394
+  },
+  "双杀": {
+    "text": "Double kill.",
+    "file": "./assets/voice/radio_23.wav",
+    "duration": 1.018613000755858
+  },
+  "三杀": {
+    "text": "Triple kill.",
+    "file": "./assets/voice/radio_24.wav",
+    "duration": 0.946050642479214
+  },
+  "四杀": {
+    "text": "Quad kill.",
+    "file": "./assets/voice/radio_25.wav",
+    "duration": 0.946050642479214
+  },
+  "暴走": {
+    "text": "Killing spree.",
+    "file": "./assets/voice/radio_26.wav",
+    "duration": 1.05489417989418
+  },
+  "无人可挡": {
+    "text": "Unstoppable.",
+    "file": "./assets/voice/radio_27.wav",
+    "duration": 1.0669879062736205
+  },
+  "侦察无人机已就绪": {
+    "text": "Recon drone ready for tasking.",
+    "file": "./assets/voice/radio_28.wav",
+    "duration": 1.8530801209372638
+  },
+  "集束空袭已就绪": {
+    "text": "Cluster strike standing by.",
+    "file": "./assets/voice/radio_29.wav",
+    "duration": 1.7563303099017384
+  },
+  "哨戒机枪已就绪": {
+    "text": "Sentry gun ready. Standing by for your command.",
+    "file": "./assets/voice/radio_30.wav",
+    "duration": 2.7386621315192743
+  },
+  "武装直升机已就绪": {
+    "text": "Attack helicopter standing by.",
+    "file": "./assets/voice/radio_31.wav",
+    "duration": 2.0949546485260773
+  },
+  "白磷弹已就绪": {
+    "text": "White phosphorus strike ready.",
+    "file": "./assets/voice/radio_32.wav",
+    "duration": 1.8167989417989419
+  },
+  "敌方无人机已上线": {
+    "text": "Enemy recon drone overhead.",
+    "file": "./assets/voice/radio_33.wav",
+    "duration": 1.9982048374905519
+  },
+  "敌方空袭来袭，寻找掩护": {
+    "text": "Enemy airstrike inbound. Take cover.",
+    "file": "./assets/voice/radio_34.wav",
+    "duration": 2.424225245653817
+  },
+  "敌方武装直升机进入战区": {
+    "text": "Enemy attack helicopter entering the area.",
+    "file": "./assets/voice/radio_35.wav",
+    "duration": 2.627078609221466
+  },
+  "无人机已上线": {
+    "text": "Friendly recon drone is airborne.",
+    "file": "./assets/voice/radio_36.wav",
+    "duration": 2.2400793650793656
+  },
+  "哨戒机枪已部署": {
+    "text": "Sentry gun deployed.",
+    "file": "./assets/voice/radio_37.wav",
+    "duration": 1.3209561602418747
+  },
+  "武装直升机已就位": {
+    "text": "Friendly attack helicopter on station.",
+    "file": "./assets/voice/radio_38.wav",
+    "duration": 2.4093915343915344
+  },
+  "白磷弹来袭": {
+    "text": "White phosphorus inbound. Stay clear.",
+    "file": "./assets/voice/radio_39.wav",
+    "duration": 2.750755857898715
+  },
+  "已占领A点": {
+    "text": "Alpha secured.",
+    "file": "./assets/voice/radio_40.wav",
+    "duration": 1.091175359032502
+  },
+  "已占领B点": {
+    "text": "Bravo secured.",
+    "file": "./assets/voice/radio_41.wav",
+    "duration": 0.9944255479969766
+  },
+  "已占领C点": {
+    "text": "Charlie secured.",
+    "file": "./assets/voice/radio_42.wav",
+    "duration": 1.1516439909297054
+  },
+  "A点已失守": {
+    "text": "We have lost Alpha.",
+    "file": "./assets/voice/radio_43.wav",
+    "duration": 1.3451436130007557
+  },
+  "B点已失守": {
+    "text": "We have lost Bravo.",
+    "file": "./assets/voice/radio_44.wav",
+    "duration": 1.3935185185185186
+  },
+  "C点已失守": {
+    "text": "We have lost Charlie.",
+    "file": "./assets/voice/radio_45.wav",
+    "duration": 1.3330498866213154
+  },
+  "集束空袭已确认": {
+    "text": "Cluster strike confirmed.",
+    "file": "./assets/voice/radio_46.wav",
+    "duration": 1.4660808767951625
+  },
+  "胜利": {
+    "text": "Mission accomplished. Good work.",
+    "file": "./assets/voice/radio_47.wav",
+    "duration": 2.146069538926682
+  },
+  "平局": {
+    "text": "Stalemate. Regroup and stand by.",
+    "file": "./assets/voice/radio_48.wav",
+    "duration": 2.714474678760393
+  },
+  "失败": {
+    "text": "Mission failed. Fall back and regroup.",
+    "file": "./assets/voice/radio_49.wav",
+    "duration": 2.605631141345427
+  },
+  "无人侦察机已就绪": {
+    "text": "Recon drone ready. Standing by for your command.",
+    "file": "./assets/voice/radio_50.wav",
+    "duration": 2.907974300831444
+  },
+  "无人侦察机已启动": {
+    "text": "Recon drone deployed.",
+    "file": "./assets/voice/radio_51.wav",
+    "duration": 1.3814247921390779
+  },
+  "炸弹无人机已就绪": {
+    "text": "Bomb drone ready. Standing by for your command.",
+    "file": "./assets/voice/radio_52.wav",
+    "duration": 2.9926303854875282
+  },
+  "炸弹无人机已启动": {
+    "text": "Bomb drone deployed.",
+    "file": "./assets/voice/radio_53.wav",
+    "duration": 1.4177059712773998
+  },
+  "集束地雷已就绪": {
+    "text": "Cluster mines ready. Standing by for your command.",
+    "file": "./assets/voice/radio_54.wav",
+    "duration": 2.932161753590325
+  },
+  "集束地雷已启动": {
+    "text": "Cluster mines deployed.",
+    "file": "./assets/voice/radio_55.wav",
+    "duration": 1.3935185185185186
+  },
+  "空投补给已就绪": {
+    "text": "Care package ready. Standing by for your command.",
+    "file": "./assets/voice/radio_56.wav",
+    "duration": 2.859599395313681
+  },
+  "空投补给已启动": {
+    "text": "Care package deployed.",
+    "file": "./assets/voice/radio_57.wav",
+    "duration": 1.4418934240362813
+  },
+  "精准空袭已就绪": {
+    "text": "Precision airstrike ready. Standing by for your command.",
+    "file": "./assets/voice/radio_58.wav",
+    "duration": 3.222411186696901
+  },
+  "精准空袭已启动": {
+    "text": "Precision airstrike deployed.",
+    "file": "./assets/voice/radio_59.wav",
+    "duration": 1.744236583522298
+  },
+  "巡航导弹已就绪": {
+    "text": "Cruise missile ready. Standing by for your command.",
+    "file": "./assets/voice/radio_60.wav",
+    "duration": 2.8233182161753594
+  },
+  "巡航导弹已启动": {
+    "text": "Cruise missile deployed.",
+    "file": "./assets/voice/radio_61.wav",
+    "duration": 1.3935185185185186
+  },
+  "迫击炮打击已就绪": {
+    "text": "Mortar strike ready. Standing by for your command.",
+    "file": "./assets/voice/radio_62.wav",
+    "duration": 2.847505668934241
+  },
+  "迫击炮打击已启动": {
+    "text": "Mortar strike deployed.",
+    "file": "./assets/voice/radio_63.wav",
+    "duration": 1.272581254724112
+  },
+  "哨戒机枪已启动": {
+    "text": "Sentry gun deployed.",
+    "file": "./assets/voice/radio_64.wav",
+    "duration": 1.3451436130007557
+  },
+  "战略轰炸已就绪": {
+    "text": "Strategic airstrike ready. Standing by for your command.",
+    "file": "./assets/voice/radio_65.wav",
+    "duration": 3.161942554799698
+  },
+  "战略轰炸已启动": {
+    "text": "Strategic airstrike deployed.",
+    "file": "./assets/voice/radio_66.wav",
+    "duration": 1.562830687830688
+  },
+  "垂直起降战机已就绪": {
+    "text": "V T O L jet ready. Standing by for your command.",
+    "file": "./assets/voice/radio_67.wav",
+    "duration": 3.488473167044596
+  },
+  "垂直起降战机已启动": {
+    "text": "V T O L jet deployed.",
+    "file": "./assets/voice/radio_68.wav",
+    "duration": 1.9740173847316707
+  },
+  "支援直升机已就绪": {
+    "text": "Overwatch helicopter ready. Standing by for your command.",
+    "file": "./assets/voice/radio_69.wav",
+    "duration": 3.39172335600907
+  },
+  "支援直升机已启动": {
+    "text": "Overwatch helicopter deployed.",
+    "file": "./assets/voice/radio_70.wav",
+    "duration": 1.96192365835223
+  },
+  "遥控战车已就绪": {
+    "text": "Remote armored vehicle ready. Standing by for your command.",
+    "file": "./assets/voice/radio_71.wav",
+    "duration": 3.3796296296296298
+  },
+  "遥控战车已启动": {
+    "text": "Remote armored vehicle deployed.",
+    "file": "./assets/voice/radio_72.wav",
+    "duration": 1.8893613000755858
+  },
+  "隐形轰炸机已就绪": {
+    "text": "Stealth bomber ready. Standing by for your command.",
+    "file": "./assets/voice/radio_73.wav",
+    "duration": 2.9684429327286472
+  },
+  "隐形轰炸机已启动": {
+    "text": "Stealth bomber deployed.",
+    "file": "./assets/voice/radio_74.wav",
+    "duration": 1.4781746031746033
+  },
+  "攻击直升机已就绪": {
+    "text": "Attack helicopter ready. Standing by for your command.",
+    "file": "./assets/voice/radio_75.wav",
+    "duration": 3.294973544973545
+  },
+  "攻击直升机已启动": {
+    "text": "Attack helicopter deployed.",
+    "file": "./assets/voice/radio_76.wav",
+    "duration": 1.7563303099017384
+  },
+  "紧急空投已就绪": {
+    "text": "Emergency airdrop ready. Standing by for your command.",
+    "file": "./assets/voice/radio_77.wav",
+    "duration": 3.2828798185941044
+  },
+  "紧急空投已启动": {
+    "text": "Emergency airdrop deployed.",
+    "file": "./assets/voice/radio_78.wav",
+    "duration": 1.8047052154195014
+  },
+  "空中炮艇已就绪": {
+    "text": "Gunship ready. Standing by for your command.",
+    "file": "./assets/voice/radio_79.wav",
+    "duration": 2.714474678760393
+  },
+  "空中炮艇已启动": {
+    "text": "Gunship deployed.",
+    "file": "./assets/voice/radio_80.wav",
+    "duration": 1.2483938019652305
+  },
+  "尖端无人机已就绪": {
+    "text": "Advanced recon drone ready. Standing by for your command.",
+    "file": "./assets/voice/radio_81.wav",
+    "duration": 3.2465986394557826
+  },
+  "尖端无人机已启动": {
+    "text": "Advanced recon drone deployed.",
+    "file": "./assets/voice/radio_82.wav",
+    "duration": 1.9014550264550265
+  },
+  "无畏机甲已就绪": {
+    "text": "Juggernaut armor ready. Standing by for your command.",
+    "file": "./assets/voice/radio_83.wav",
+    "duration": 3.1377551020408165
+  },
+  "无畏机甲已启动": {
+    "text": "Juggernaut armor deployed.",
+    "file": "./assets/voice/radio_84.wav",
+    "duration": 1.5265495086923657
+  },
+  "炸弹无人机控制已连接": {
+    "text": "Bomb drone. Control link established.",
+    "file": "./assets/voice/radio_85.wav",
+    "duration": 2.7023809523809526
+  },
+  "巡航导弹控制已连接": {
+    "text": "Cruise missile. Control link established.",
+    "file": "./assets/voice/radio_86.wav",
+    "duration": 2.484693877551021
+  },
+  "遥控战车控制已连接": {
+    "text": "Remote armored vehicle. Control link established.",
+    "file": "./assets/voice/radio_87.wav",
+    "duration": 3.21031746031746
+  },
+  "攻击直升机控制已连接": {
+    "text": "Attack helicopter. Control link established.",
+    "file": "./assets/voice/radio_88.wav",
+    "duration": 3.125661375661376
+  },
+  "空中炮艇控制已连接": {
+    "text": "Gunship. Control link established.",
+    "file": "./assets/voice/radio_89.wav",
+    "duration": 2.4121315192743764
+  },
+  "空投奖励已领取": {
+    "text": "Care package secured. Your support is ready.",
+    "file": "./assets/voice/radio_90.wav",
+    "duration": 2.726568405139834
+  },
+  "无畏机甲已装备": {
+    "text": "Juggernaut armor online. Heavy weapons ready.",
+    "file": "./assets/voice/radio_91.wav",
+    "duration": 2.7023809523809526
+  }
+}

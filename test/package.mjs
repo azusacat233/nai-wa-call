@@ -1,0 +1,17 @@
+import {mkdirSync as ensureTestDir} from 'node:fs';
+ensureTestDir('test-results',{recursive:true});
+import {chromium} from 'playwright';import fs from 'node:fs';
+const b=await chromium.connectOverCDP('http://127.0.0.1:9334'),p=b.contexts()[0].pages()[0],errors=[];p.on('pageerror',e=>errors.push(e.message));
+const cdp=await p.context().newCDPSession(p);await cdp.send('Network.setCacheDisabled',{cacheDisabled:true});await p.reload();await p.bringToFront();
+await p.waitForFunction(()=>window.game?.state==='menu',null,{timeout:60000});
+const boot=await p.evaluate(async()=>({title:document.title,state:game.state,weapon:game.profile.classes[0].primary,level:game.menu.level().lv,desktop:window.desktop.version,nodeExposed:typeof window.require,streaks:(await import('./js/data.js')).KILLSTREAKS.length}));
+await p.screenshot({path:'test-results/奶蛙召唤-大厅.png'});
+await p.evaluate(async()=>{await game.startGame('mp',{mode:'tdm',map:'outpost',diff:0,allies:1,enemies:3,scoreLimit:100,timeLimit:10});game.godMode=true;game.paused=false;game.menu.hide();document.getElementById('clickToPlay').classList.add('hidden');game.mode.streakState=[{id:'gunship',cost:12,ready:true,used:false}];game.mode.useStreak(0);});
+await p.waitForTimeout(1400);
+const remote=await p.evaluate(()=>({id:game.mode.streakSystem.remote?.id,fov:game.camera.fov,vmVisible:game.vmPass.enabled,finite:game.camera.position.toArray().every(Number.isFinite),overlay:document.getElementById('streak-control').innerText}));
+await p.screenshot({path:'test-results/naiwa-gunship.png'});
+await p.keyboard.press('3');await p.waitForTimeout(150);const cannon=await p.evaluate(()=>game.mode.streakSystem.remote?.weapon);
+await p.keyboard.press('f');await p.waitForTimeout(250);const returned=await p.evaluate(()=>!game.mode.streakSystem.remote&&game.vmPass.enabled);
+await p.evaluate(()=>{game.exitToMenu();game.godMode=false;});
+const result={boot,remote,cannon,returned,errors,pass:boot.title.includes('奶蛙召唤')&&boot.weapon==='hk416'&&boot.level===1&&boot.nodeExposed==='undefined'&&boot.streaks===18&&remote.id==='gunship'&&!remote.vmVisible&&remote.finite&&cannon===2&&returned&&errors.length===0};
+fs.writeFileSync('test-results/naiwa-package-test.json',JSON.stringify(result,null,2));console.log(result);await b.close();if(!result.pass)process.exitCode=1;

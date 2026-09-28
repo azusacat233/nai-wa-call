@@ -1,0 +1,18 @@
+{
+  "name": "nai-wa-call",
+  "version": "2.2.0",
+  "description": "奶蛙召唤：原创海岸前哨地图、HK416D 和战术奶蛙的离线 Windows FPS",
+  "main": "desktop/main.cjs",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node test/reload.mjs && node test/outpost-movement.mjs && node test/outpost-roof.mjs && node test/outpost-full.mjs && node test/streaks.mjs",
+    "package": "node desktop/package.mjs"
+  },
+  "devDependencies": {
+    "agent-browser": "0.38.1",
+    "electron": "44.4.5",
+    "playwright": "1.63.0",
+    "three": "0.169.0"
+  }
+}

@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+const project=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const workspace=path.resolve(project,'../..');
+const out=process.env.NAIWA_OUTPUT_DIR?path.resolve(process.env.NAIWA_OUTPUT_DIR):path.join(project,'dist','奶蛙召唤');
+fs.mkdirSync(out,{recursive:true});
+fs.cpSync(process.env.ELECTRON_RUNTIME||path.join(project,'node_modules/electron/dist'),out,{recursive:true});
+fs.renameSync(path.join(out,'electron.exe'),path.join(out,'奶蛙召唤.exe'));
+const app=path.join(out,'resources/app');fs.mkdirSync(app,{recursive:true});
+fs.cpSync(path.join(project,'app'),path.join(app,'app'),{recursive:true});
+fs.mkdirSync(path.join(app,'desktop'),{recursive:true});
+for(const f of ['main.cjs','preload.cjs'])fs.copyFileSync(path.join(project,'desktop',f),path.join(app,'desktop',f));
+fs.writeFileSync(path.join(app,'package.json'),JSON.stringify({name:'naiwa-call',productName:'奶蛙召唤',version:'2.2.0',main:'desktop/main.cjs',private:true},null,2));
+for(const f of ['使用说明.md','素材与来源.md','连杀奖励对照.md'])fs.copyFileSync(path.join(project,f),path.join(out,f));
+fs.copyFileSync(path.join(project,'node_modules/three/LICENSE'),path.join(out,'THREE-LICENSE.txt'));
+console.log(out);
